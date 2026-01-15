@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+     font-family: "Roboto", sans-serif;
+     font-size: 16px;
+}
+.banner {
+    background-color: #162742;
+    color: white;
+    padding: 50px 400px;
+    margin-bottom: 76px;
+}
+.tag {
+    height: 40px;
+    background-color: transparent;
+    padding: 0 12px;
+    border: 1px solid #51637d;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+.slogan {
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.description {
+    width: 665px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.button-navigates {
+    margin-bottom: 24px;
+}
+.button-primary {
+    height: 50px;
+    padding: 0 20px;
+    background-color: #1a73e8;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.card {
+    padding: 24px 16px;
+    border: 1px solid #213a60;
+    border-radius: 20px;
+    width: 200px;
+    transition: all 0.2s linear;
+    background-color: #223e68;
+}
+.card:hover{
+    transform: translateY(-9px);
+}
+.number {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main {
+    margin-top: 76px;
+    width: 1500px;
+    margin: 0 auto;
+}
+.service-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.h3{
+    width: 1200px;
+    border: 1px solid rgb(27, 109, 233);
+    border-radius: 10px;
+    padding: 5px 10px;
+    position:relative;
+    margin-top: 30px ;
+    line-height: 30px;
+}
+
+.h3:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform:translateY(-3px);
+}
+
+.HOT {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(84, 102, 218);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 900;
+
+}
+.text{
+    margin-left: 20px;
+}
+.price{
+    color: #0b346b; 
+    font-weight: 800;
+}
+footer {
+    padding-left: 100px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button {
+            height: 40px;
+            padding: 0 16px;
+            background-color: blue;
+            transition: all 2s linear;
+        }
+
+        .button:hover {
+            background-color: red;
+            color: white;
+        }
+
+        .tranform {
+            margin-top: 10px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition: all 1s linear;
+        }
+
+        .tranform:hover {
+            /* transform: scale(0.5); */
+            /* transform: rotate(360deg); */
+            /* transform: skew(10deg); */
+            transform: translate(100px, 10px);
+        }
+    </style>
+</head>
+<body>
+    <button class="button">Button</button>
+
+    <div class="tranform">Tranform</div>
+</body>
+</html>

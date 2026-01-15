@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    border: 1px solid black;
+    width: 530px;
+    height: 550px;
+    margin: 40px;
+    padding: 3px;
+}
+
+.heading-2 {
+    color: #ff6600;
+    margin-bottom: 12px;
+}
+
+.heading-1 {
+    margin: 8px 12px;
+}
+
+.heading-3 {
+    color: #27ff38;
+    margin: 12px 12px;
+}
+
+.content {
+    color: #555555;
+    margin: 14px ;
+    line-height: 24px;
+}
